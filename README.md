@@ -3,14 +3,10 @@
 ![logo](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/GoLanguage_Logo_2018-04-26_BlackWhite.svg/1200px-GoLanguage_Logo_2018-04-26_BlackWhite.svg.png)
 
 ## A Containerized, Fedora-powered Go Development Environment
-
-<<<<<<< HEAD
-I got tired of encountering weird hiccups while developing and testing on my host so I made this container image so that I can develop in a clean environment and be able to quickly trash it when I invariably screw something up. It's built on the Fedora container image and has Go Modules activated by default. I suggest creating an alternate go project folder (named 'go-projects' in the following instructions) in your home directory prior to running this image. 
-=======
 [![Build Status](https://travis-ci.com/VltraHeaven/godev-docker.svg?branch=master)](https://travis-ci.com/VltraHeaven/godev-docker)
 
-I got tired of encountering weird hiccups while developing and testing on my host so I made this container image so that I can develop in a clean environment and be able to quickly trash it when I invariably screw something up. It's build on the Fedora container image and has Go Modules activated by default. I suggest creating an alternate go project folder (named 'go-projects' in the following instructions) in your home directory prior to running this image. 
->>>>>>> 971a593efd9aea23e5f2985fa11a1cbe6ffd44b4
+I got tired of encountering weird hiccups while developing and testing on my host so I made this container image so that I can develop in a clean environment and be able to quickly trash it when I invariably screw something up. It's built on the Fedora container image and has Go Modules activated by default. I suggest creating an alternate go project folder (named 'go-projects' in the following instructions) in your home directory prior to running this image. 
+
 
 ## Building the Container Image
 ```sh
