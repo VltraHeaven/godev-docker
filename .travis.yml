@@ -4,4 +4,4 @@ script:
 - docker build -t godev-docker .
 - docker login --username vltraheaven --password $DOCKER_PASSWD
 - docker tag godev-docker:latest vltraheaven/godev-docker
-- docker push godev-docker:latest
+- docker push vltraheaven/godev-docker:latest
