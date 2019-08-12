@@ -23,4 +23,4 @@ $ docker pull vltraheaven/godev-docker
 ```sh
 $ docker run -it --rm -v $HOME/go-projects:/home/golang/go -name godev-docker godev-docker
 ```
-> The Dockerfile creates a user with the username 'golang' and UID|GID of '1000', adds the account as a password-less sudoer and starts the container within the context of this user. Feel free to change any of these settings at your discrection.
+> The Dockerfile creates a user with the username 'golang' and UID|GID of '1000', adds the account as a password-less sudoer and starts the container within the context of this user. Feel free to change any of these settings at your discretion.
