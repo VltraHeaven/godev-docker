@@ -4,7 +4,7 @@
 
 ## A Containerized, Fedora-powered Go Development Environment
 
-I got tired of encountering weird hiccups while developing and testing on my host so I made this container image so that I can develop in a clean environment and be able to quickly trash it when I invariably screw something up. It's build on the Fedora container image and has Go Modules activated by default. I suggest creating an alternate go project folder (named 'go-projects' in the following instructions) in your home directory prior to running this image. 
+I got tired of encountering weird hiccups while developing and testing on my host so I made this container image so that I can develop in a clean environment and be able to quickly trash it when I invariably screw something up. It's built on the Fedora container image and has Go Modules activated by default. I suggest creating an alternate go project folder (named 'go-projects' in the following instructions) in your home directory prior to running this image. 
 
 ## Building the Container Image
 ```sh
