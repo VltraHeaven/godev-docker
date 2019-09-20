@@ -2,7 +2,7 @@ FROM fedora:latest
 
 #Install golang
 RUN dnf upgrade -y
-RUN dnf install -y golang git sudo
+RUN dnf install -y golang git sudo neovim python{2,3}-neovim
 RUN dnf clean all
 
 # Add environment variable to support Go Modules
@@ -16,6 +16,7 @@ RUN echo 'golang ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers
 RUN usermod -a -G sudo golang
 WORKDIR /home/golang
 ADD --chown=golang:golang .bashrc /home/golang/
+ADD --chown=golang:golang .vimrc /home/golang/
 USER golang
 
 # Start Container with bash
