@@ -2,7 +2,7 @@ FROM fedora:latest
 
 #Install golang
 RUN dnf upgrade -y
-RUN dnf install -y golang git sudo vim neovim python{2,3}-neovim ncurses-devel ctags-etags curl
+RUN dnf install -y golang git sudo vim neovim python3-neovim ncurses-devel ctags-etags curl
 RUN dnf clean all
 
 # Add environment variable to support Go Modules
