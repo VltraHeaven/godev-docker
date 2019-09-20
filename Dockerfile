@@ -19,5 +19,10 @@ ADD --chown=golang:golang .bashrc /home/golang/
 ADD --chown=golang:golang .vimrc /home/golang/
 USER golang
 
+# Add 'vim-plug', Vim Plugin Manger
+RUN curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+ 
+
 # Start Container with bash
 CMD [ "/bin/bash"]
