@@ -5,8 +5,7 @@
 ## A Containerized, Fedora-powered Go Development Environment
 [![Build Status](https://travis-ci.com/VltraHeaven/godev-docker.svg?branch=master)](https://travis-ci.com/VltraHeaven/godev-docker)
 
-I got tired of encountering weird hiccups while developing and testing on my host so I made this container image so that I can develop in a clean environment and be able to quickly trash it when I invariably screw something up. It's built on the Fedora container image and has Go Modules activated by default. I suggest creating an alternate go project folder (named 'go-projects' in the following instructions) in your home directory prior to running this image. 
-
+I got tired of encountering weird hiccups while developing and testing on my host so I made this container image so that I can develop in a clean environment and be able to quickly trash it when I invariably screw something up. It's built on the Fedora container image and has Go Modules activated by default. I suggest creating an alternate go project folder (named 'go-projects' in the following instructions) in your home directory prior to running this image. Includes Vim and Neovim text editors with support for Go, Python, C, Javascript, HTML and PHP programming languages as well as the VueJS Framework.
 
 ## Building the Container Image
 ```sh
