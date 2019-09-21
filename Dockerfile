@@ -19,7 +19,7 @@ WORKDIR /home/golang
 # Adding Bash, Vim and Neovim Configs
 ADD --chown=golang:golang .bashrc /home/golang/
 ADD --chown=golang:golang .vimrc /home/golang/
-RUN mkdir -p /home/golang/.config/nvim
+RUN mkdir -p /home/golang/.config/nvim && chown -R golang:golang /home/golang/.config/
 ADD --chown=golang:golang init.vim /home/golang/.config/nvim/
 USER golang
 
