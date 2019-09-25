@@ -9,7 +9,7 @@ I got tired of encountering weird hiccups while developing and testing on my hos
 
 ## Building the Container Image
 ```sh
-$ git pull https://github.com/VltraHeaven/godev-docker
+$ git clone https://github.com/VltraHeaven/godev-docker
 $ cd ./godev-docker
 $ docker build -t godev-docker .
 ```
